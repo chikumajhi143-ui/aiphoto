@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+dist/
+build/
+.next/
+out/
+.env
+.env.local
+
+# Project specific
+backend/uploads/*
+backend/processed/*
+ai-service/input/*
+ai-service/output/*
+ai-service/models/*.pth
+
+# OS files
+.DS_Store
+Thumbs.db

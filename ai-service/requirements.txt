@@ -1,0 +1,12 @@
+torch
+torchvision
+numpy
+opencv-python
+pillow
+basicsr
+facexlib
+gfpgan
+realesrgan
+flask
+flask-cors
+Requests

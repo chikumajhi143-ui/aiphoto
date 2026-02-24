@@ -1,0 +1,32 @@
+{
+  "brand_name": "Odisha Cloud",
+  "colors": {
+    "primary": {
+      "light": "#38bdf8",
+      "main": "#0ea5e9",
+      "dark": "#0369a1"
+    },
+    "secondary": {
+      "light": "#a78bfa",
+      "main": "#8b5cf6",
+      "dark": "#6d28d9"
+    },
+    "background": {
+      "dark": "#0f172a",
+      "glass": "rgba(15, 23, 42, 0.7)"
+    },
+    "text": {
+      "primary": "#f8fafc",
+      "secondary": "#94a3b8"
+    }
+  },
+  "typography": {
+    "font_family": "'Inter', sans-serif",
+    "headings": "'Outfit', sans-serif"
+  },
+  "effects": {
+    "blur": "20px",
+    "border_radius": "16px",
+    "glass_gradient": "linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0))"
+  }
+}

@@ -28,7 +28,8 @@ export default function App() {
                 setProgress(prev => (prev < 90 ? prev + 5 : prev));
             }, 500);
 
-            const response = await fetch('http://localhost:5000/api/enhance', {
+            const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+            const response = await fetch(`${apiUrl}/api/enhance`, {
                 method: 'POST',
                 body: formData,
             });

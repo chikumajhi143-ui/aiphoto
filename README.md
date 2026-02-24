@@ -69,10 +69,11 @@ A premium AI-powered image enhancement ecosystem with a Glassmorphism UI, Node.j
 3. **Import the repository.**
 4. **Set the Framework Preset to `Vite`.**
 5. **Set the Root Directory to `web`.**
-### 4. Adding Environment Variables (Vercel/Production)
-In your Vercel Dashboard or production process:
-- Set `VITE_API_URL` to your deployed backend address (e.g., `https://api.odishacloud.com`).
-**
+### 4. Adding Environment Variables (Vercel)
+Vite requires variables to be prefixed with `VITE_`.
+1. Open Project Settings -> **Environment Variables**.
+2. Add `VITE_API_URL` with your backend URL (e.g., `https://api.srijagannathmedical.info`).
+3. **IMPORTANT**: You must **Redeploy** the project if you change this value, as it is embedded at build time.
 6. **Click Deploy!**
 
 ---
